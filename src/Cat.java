@@ -16,6 +16,7 @@ public class Cat {
         System.out.println("Хочу играть!");
         this.iSPlay = true;
     }
+
     public void talk() throws CantMyException {
         System.out.println("Мяу");
         if (iSPlay) {
@@ -42,6 +43,6 @@ public class Cat {
         return "Cat{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
-                                '}';
+                '}';
     }
 }
